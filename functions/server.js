@@ -1,11 +1,4 @@
-// functions/server.js
-const express = require('express');
 const serverless = require('serverless-http');
-const app = express();
-
-// Your Express routes here
-app.get('/api/hello', (req, res) => {
-  res.send('Hello, world!');
-});
+const app = require('../app');  // Import the app from the root directory
 
 module.exports.handler = serverless(app);

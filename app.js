@@ -96,6 +96,9 @@ app.post('/process_form', (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log('Server is running on port 3001');
-});
+// Do not start the server here when running on Netlify
+// app.listen(3000, () => {
+//   console.log('Server is running on port 3001');
+// });
+
+module.exports = app;  // Export the app for serverless usage

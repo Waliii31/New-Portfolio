@@ -2,10 +2,11 @@
   "name": "new-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "functions/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "netlify-lambda serve functions"
+    "start": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
   },
   "keywords": [],
   "author": "",
