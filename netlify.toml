@@ -1,7 +1,0 @@
-[build]
-  command = "npm run build"
-  functions = "functions"
-  publish = "public"  # Ensure this matches the directory you serve static files from
-
-[functions]
-  directory = "functions"

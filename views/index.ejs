@@ -83,22 +83,54 @@
     <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="cards">
-          <% if (project.length > 0) { %> <% project.forEach(project => { %>
           <div class="card text-light bg-transparent border border-white">
             <img
-              alt="<%= project.name %>"
-              src="<%= project.image %>"
+              alt="/"
+              src='/images/KAY.V.H.png'
               class="card-img-top"
             />
             <div class="card-body">
-              <h5 class="card-title"><%= project.name %></h5>
-              <p class="card-text text-white-50"><%= project.description %></p>
-              <a target=”_blank” href="<%= project.webLink %>" class="btn btn-outline-light">See More</a>
+              <h5 class="card-title">KAY.V.H</h5>
+              <p class="card-text text-white-50">Contemporary artist's website showcasing and selling paintings by San Francisco-based Kay Van Hans</p>
+              <a target=”_blank” href="https://kay-van-hans.netlify.app/" class="btn btn-outline-light">See More</a>
             </div>
           </div>
-          <% }) %> <% } else{ %>
-          <p style="color: grey; font-size: 3vw">No projects found</p>
-          <% } %>
+          <div class="card text-light bg-transparent border border-white">
+            <img
+              alt="/"
+              src='/images/EREN.png'
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">EREN</h5>
+              <p class="card-text text-white-50">Claritas est stiam processues dynamicus, qui sequiter mutaridum concedium lectrum.</p>
+              <a target=”_blank” href="https://eren-website.netlify.app/" class="btn btn-outline-light">See More</a>
+            </div>
+          </div>
+          <div class="card text-light bg-transparent border border-white">
+            <img
+              alt="/"
+              src='/images/ACORN.png'
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">ACORN</h5>
+              <p class="card-text text-white-50">Modern digital services website specializing in logo design, web development, and creating impactful online presences.</p>
+              <a target=”_blank” href="https://acorn-website.netlify.app/" class="btn btn-outline-light">See More</a>
+            </div>
+          </div>
+          <div class="card text-light bg-transparent border border-white">
+            <img
+              alt="/"
+              src='/images/TIC-TAC-TOE.png'
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">TIC-TAC-TOE</h5>
+              <p class="card-text text-white-50">Two player game which competates X vs O on a 3x3 grid, first to three in a row wins.</p>
+              <a target=”_blank” href="https://cross-and-tick.netlify.app/" class="btn btn-outline-light">See More</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
