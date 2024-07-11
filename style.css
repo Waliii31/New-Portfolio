@@ -162,7 +162,6 @@ body{
   }
 
   .Main-hero .right img{
-    border: 1px solid hsl(0, 0%, 100%);
     object-fit: cover;
   }
 
